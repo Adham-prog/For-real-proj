@@ -1,0 +1,49 @@
+/*---header and styles---*/
+
+.header{
+    display: grid;
+    justify-content: center;
+    background-color: transparent;
+}
+
+.Myportfolio{
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 2rem;
+    margin: 20px;
+}
+
+.container{
+    background-color: #6F8F72;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 15px;
+    opacity: 0.9;
+    display: flex;
+    padding: 20px;
+}
+
+.container nav{
+    display: flex;
+    gap: 100px;
+}
+/*navigation links*/
+
+.menu a {
+    color: #E6E6E6;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border: 1px solid transparent;
+    transform-origin: color 0.3s ease, opacity 0.3s ease, font-weight 0.3s ease;
+    transition : background-color 0.3s ease;
+    color: 0.3s ease;
+}
+
+.menu a:hover{
+    border: 1px solid #C0392B;
+    color: black;
+    font-weight: bold;
+    opacity: 0.7;
+}

@@ -3,7 +3,7 @@
     <head>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="portfolio.css">
-        <link re="stylesheet"  href="menu.css">
+        <link rel="stylesheet" href="menu.css">
     </head>
 
     <body>
@@ -14,31 +14,29 @@
                     <a class="Home" href="Home">Home</a>
                     <a class="about"href="about">About</a>
                     <a class="projects"href="projects">Projects</a>
-                    <a cla ss="skills" href="skills">Skills</a>
+                    <a class="skills" href="skills">Skills</a>
                     <a class="exp"href="exp">Experience</a>
                 </nav>
             </div> 
         </header>
-        <main class="main-bg">
-            <section class = "intro">
-            <h2>Hi, my name is Adham Shafiqui Michael</h2>
-            <h3>Im an I.T Student</h3>
-            <p>I build simple web project while learning Ai automation, networking, cloud networking, system, and modern web techonologies. </p>
-
-        </section>
-            <div class="pfp-scene" id="pfp">
-                <div class="pfp-bg"></div>
-                <img class="profile-pic" src="pfp-1.png" alt="profile" >
+        <main   class="main-bg">
+            <div class="main-pfp-container">
+                <section class = "intro">
+                    <h2>Hi, my name is Adham Shafiqui Michael</h2>
+                    <h3>Im an I.T Student</h3>
+                    <p>I build simple web project while studying networking,<br> cloud networking and web system. </p>
+                </section>
+                <div class="pfp-scene" id="pfp">
+                    <div class="pfp-bg"></div>
+                    <img class="circle-bg" src="circle.png" alt="profile-circle">
+                    <img class="profile-pic" src="pfp-1.png" alt="profile" >
+                    
+                </div>
             </div>
-
+                <div class= "pfp-arrow">
+                    <img class="arrow" src="arrow.png" alt="arrow">
+            </div>
         </main>
-        <script>
-    const pfp = document.getElementById("pfp");
-    const bg = document.querySelector(".main-bg");
-
-    pfp.addEventListener("click", () => {
-    pfp.classList.toggle("slide-left");
-    bg.classList.toggle("shift");
-});
-</script>
+        <script src="script.js"></script>
 </body>
+</html>
